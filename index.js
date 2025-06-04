@@ -1,7 +1,12 @@
+let secondsRemaining = 3;
 function startCountdown() {
-  let secondsRemaining = 3;
-  console.log(`Your device will shut down in ${secondsRemaining} seconds`);
-  secondsRemaining--;
+  if (secondsRemaining === 0) {
+    console.log(`Your device is shutting down`);
+    clearInterval(shutdownTimer);
+  } else if (secondsRemaining > 0) {
+    secondsRemaining--;
+    console.log(`Your device will shut down in ${secondsRemaining} seconds`);
+  }
 
   /*
 Challenge:
