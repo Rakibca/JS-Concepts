@@ -1,4 +1,4 @@
-export const interplanetaryDestinationsArr = [
+const interplanetaryDestinationsArr = [
   {
     destination: "Nova Prime",
     distanceKM: 500000000,
@@ -107,3 +107,5 @@ const shortSpaceTripsArr = [
       "Get up close to a passing asteroid and witness the wonders of the asteroid belt.",
   },
 ];
+
+export { interplanetaryDestinationsArr, shortSpaceTripsArr };

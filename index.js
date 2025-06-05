@@ -1,3 +1,6 @@
-import { interplanetaryDestinationsArr } from "/data.js";
+import {
+  interplanetaryDestinationsArr as destinations,
+  shortSpaceTripsArr,
+} from "/data.js";
 
-console.log(interplanetaryDestinationsArr);
+console.log(destinations);
