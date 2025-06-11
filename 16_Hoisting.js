@@ -1,0 +1,26 @@
+// Challenge:
+// 1. Predict what will be logged to the console.
+
+/////////////////////////////////////////////////////////////////
+
+// function getWeather() {
+//     return "Today's weather is warm and sunny"
+// }
+
+// console.log(getWeather())
+
+/////////////////////////////////////////////////////////////////
+
+// console.log(getNews()); // This is hoisting
+
+// function getNews() {
+//   return 'A new swimming pool has opened in the town centre...';
+// }
+
+/////////////////////////////////////////////////////////////////
+
+console.log(trafficInfo); // Not hoisted
+
+let trafficInfo = 'All roads are busy right now';
+
+/////////////////////////////////////////////////////////////////
