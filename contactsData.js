@@ -1,4 +1,4 @@
-const contactsArr = [
+export const contactsArr = [
   { name: 'John Smith', email: 'john.smith@gmail.com', phone: '415-792-6341' },
   {
     name: 'Kofi Mensah',
