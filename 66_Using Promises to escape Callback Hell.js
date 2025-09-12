@@ -4,7 +4,7 @@ Challenge:
    when they are done, log 'All steps completed!'.
 */
 
-// expected output:
+// See expected output:
 
 // Step 1: Uploading file...
 // Step 2: Processing file...
