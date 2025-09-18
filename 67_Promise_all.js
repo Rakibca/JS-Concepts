@@ -17,5 +17,5 @@ try {
   const result = await Promise.all([promise1, promise2, promise3]);
   console.log(result); // ['Operation successful!', 'Operation successful!', 'Operation successful!']
 } catch (err) {
-  console.log(err);
+  console.log(err); // or we may get 'Operation failed.'
 }
